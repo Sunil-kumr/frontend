@@ -19,7 +19,7 @@ const Home = () => {
 
       <div style={{ marginTop: "20px" }}>
         <Link
-          to="/register"
+          to="/"
           style={{
             textDecoration: "none",
             padding: "10px 20px",
