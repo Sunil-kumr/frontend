@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
 
     axios
-      .post("http://localhost:5001/login", { email, password })
+      .post("https://backend-xgqu.onrender.com/login", { email, password })
       .then((response) => {
         if (response.data.success) {
           navigate("/home"); // redirect after successful login

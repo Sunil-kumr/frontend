@@ -12,7 +12,7 @@ const Register = () => {
     e.preventDefault();
 
     axios
-      .post("http://localhost:5001/register", { name, email, password })
+      .post("https://backend-xgqu.onrender.com/register", { name, email, password })
       .then((response) => {
         if (response.data.success) {
         
